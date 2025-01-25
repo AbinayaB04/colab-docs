@@ -13,8 +13,9 @@ Connection(URL);
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'http://localhost:3000',
-        methods: ['GET', 'POST']
+        origin: ['colab-docs-3unz-lju1lj1gh-abinayas-projects-4f659940.vercel.app'],
+        methods: ['GET', 'POST'],
+        credentials:true
     }
 });
 

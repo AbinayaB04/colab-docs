@@ -47,7 +47,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('http://localhost:9000');
+        const socketServer = io('colab-docs-b7bn6jrwc-abinayas-projects-4f659940.vercel.app');
         setSocket(socketServer);
 
         return () => {
