@@ -13,7 +13,7 @@ Connection(URL);
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'http://localhost:3000',
+        origin: 'https://team-docs-jet.vercel.app/',
         methods: ['GET', 'POST']
     }
 });
