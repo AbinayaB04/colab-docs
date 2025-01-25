@@ -13,7 +13,7 @@ Connection(URL);
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'https://team-docs-jet.vercel.app/',
+        origin: 'colab-docs-3unz-lju1lj1gh-abinayas-projects-4f659940.vercel.app',
         methods: ['GET', 'POST']
     }
 });
